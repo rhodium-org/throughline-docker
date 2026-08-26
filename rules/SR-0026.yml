@@ -1,0 +1,12 @@
+uid: SR-0026
+type: system_requirement
+status: approved
+title: Set the main command with ENTRYPOINT
+text: >-
+  Use ENTRYPOINT to set the image's main command so the image can be run as though it were
+  that command, with CMD supplying the default flags.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: ENTRYPOINT — Main Command"

@@ -1,0 +1,12 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Sort multi-line arguments
+text: >-
+  Sort multi-line arguments alphanumerically wherever possible, so the list is easier to
+  update, avoids duplicate packages and makes changes easier to review.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: General Guidelines — Sort Multi-line Arguments"

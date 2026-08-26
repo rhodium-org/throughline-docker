@@ -1,0 +1,12 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: Copy only the artefacts you need
+text: >-
+  In the final stage, copy only the artefacts the application needs to run, leaving build
+  tools, source and intermediate files behind.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: Multi-stage Builds — Copy Only Artefacts"

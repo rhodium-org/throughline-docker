@@ -1,0 +1,12 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: Pin installed package versions
+text: >-
+  Pin installed package versions where practical, so the build retrieves a known version
+  regardless of what is in the cache.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: RUN — Pin Packages"

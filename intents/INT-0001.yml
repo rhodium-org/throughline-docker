@@ -1,0 +1,13 @@
+uid: INT-0001
+type: intent
+status: approved
+title: Container images are built to be reproducible, small and maintainable
+text: >-
+  Docker's Dockerfile best practices exist so that container images across a large estate
+  are built the same way: reproducible, small, cacheable and readable, with each container
+  owning a single concern and each Dockerfile instruction used for its intended purpose,
+  so that any engineer can read, rebuild and change an image they did not author and a CI
+  pipeline can build it identically.
+normative: false
+attrs:
+  source_ref: "Docker Dockerfile best practices"

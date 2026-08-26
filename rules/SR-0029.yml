@@ -1,0 +1,12 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: Run as a non-root user
+text: >-
+  If a service can run without privileges, create a dedicated user and group and use USER
+  to drop to it, so the process does not run as root.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: USER — Non-root User"

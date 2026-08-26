@@ -1,0 +1,13 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: Use ADD only for tar extraction
+text: >-
+  Reserve ADD for local tar file auto-extraction into the image; do not use ADD to fetch
+  remote URLs, use curl or wget in a RUN instead so intermediate files can be cleaned up
+  in the same layer.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: ADD or COPY — ADD for Tar"

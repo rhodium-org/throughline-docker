@@ -1,0 +1,12 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: Split long RUN statements across lines
+text: >-
+  Split long or complex RUN statements onto multiple lines separated by backslashes to
+  make the Dockerfile more readable, understandable and maintainable.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: RUN — Readable RUN"

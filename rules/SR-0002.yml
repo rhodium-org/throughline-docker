@@ -1,0 +1,12 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: Decouple applications into separate containers
+text: >-
+  Give each container a single concern and decouple applications into multiple containers,
+  which makes it easier to scale horizontally and reuse containers.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: General Guidelines — Decouple Applications"

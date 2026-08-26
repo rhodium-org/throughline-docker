@@ -1,0 +1,12 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Prefer COPY over ADD
+text: >-
+  Prefer COPY over ADD for copying local files into the image, because COPY is more
+  transparent and does only what it says.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: ADD or COPY — Prefer COPY"

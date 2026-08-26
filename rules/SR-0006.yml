@@ -1,0 +1,13 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: Use multi-stage builds
+text: >-
+  Use multi-stage builds to produce a much smaller final image without maintaining a
+  separate build Dockerfile, by building in one stage and copying only what is needed into
+  a clean final stage.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: Multi-stage Builds — Use Multiple Stages"

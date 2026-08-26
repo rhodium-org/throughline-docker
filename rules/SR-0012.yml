@@ -1,0 +1,12 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: Pin the base image version
+text: >-
+  Pin the base image to a specific tag or digest rather than a moving tag such as latest,
+  so builds are reproducible.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: FROM — Pin Versions"

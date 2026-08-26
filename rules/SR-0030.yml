@@ -1,0 +1,12 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: Avoid installing or using sudo
+text: >-
+  Avoid sudo, which has unpredictable TTY and signal-forwarding behaviour that causes
+  problems; use a tool such as gosu if you must step down from root at start-up.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: USER — Avoid sudo"

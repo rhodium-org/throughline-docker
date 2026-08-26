@@ -1,0 +1,12 @@
+uid: SR-0017
+type: system_requirement
+status: approved
+title: Clean up the package cache in the same layer
+text: >-
+  Remove the package manager cache and lists in the same RUN statement that installs
+  packages, so the cleanup takes effect in the same layer and does not bloat the image.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: RUN — Clean Package Cache"

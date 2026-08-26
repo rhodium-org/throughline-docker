@@ -1,0 +1,11 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: LABEL
+text: >-
+  Rules governing image metadata.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Docker Dockerfile best practices: LABEL"

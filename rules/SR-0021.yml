@@ -1,0 +1,12 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: Declare listening ports with EXPOSE
+text: >-
+  Declare the ports on which the container listens using EXPOSE, choosing the common,
+  traditional port for the application, so the image documents how it is reached.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: EXPOSE — Declare Ports"

@@ -1,0 +1,12 @@
+uid: SR-0011
+type: system_requirement
+status: approved
+title: Prefer a minimal base image
+text: >-
+  Prefer a minimal base image where it suits the application, such as a slim or Alpine
+  variant, to reduce image size and attack surface.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: FROM — Minimal Base"

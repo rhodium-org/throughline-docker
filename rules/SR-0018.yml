@@ -1,0 +1,12 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: Set pipefail before piped commands
+text: >-
+  When a RUN command pipes output between programs, set the shell option pipefail first,
+  so the build fails if any stage of the pipe fails rather than only the last.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: RUN — Pipefail"

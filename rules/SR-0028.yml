@@ -1,0 +1,13 @@
+uid: SR-0028
+type: system_requirement
+status: approved
+title: Expose mutable data with VOLUME
+text: >-
+  Use VOLUME to expose any database storage area, configuration storage, or files and
+  folders created by the container, so mutable and user-serviceable data is kept out of
+  the image layers.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: VOLUME — Mutable Data"

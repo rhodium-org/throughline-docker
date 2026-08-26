@@ -1,0 +1,11 @@
+uid: SR-0031
+type: system_requirement
+status: approved
+title: Avoid switching USER back and forth
+text: >-
+  To reduce layers and complexity, avoid switching the USER back and forth frequently.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: USER — Minimise USER Switching"

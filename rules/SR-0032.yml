@@ -1,0 +1,12 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: Use absolute paths for WORKDIR
+text: >-
+  Always use absolute paths for WORKDIR for clarity and reliability, rather than
+  proliferating instructions that change directory inside a RUN.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: WORKDIR — Absolute Paths"

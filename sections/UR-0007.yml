@@ -1,0 +1,11 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: RUN
+text: >-
+  Rules governing RUN instructions, package installation and cache management.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Docker Dockerfile best practices: RUN"

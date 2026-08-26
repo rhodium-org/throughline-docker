@@ -1,0 +1,12 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: Leverage the build cache
+text: >-
+  Order instructions from the least to the most frequently changing, so that a change late
+  in the Dockerfile does not invalidate the cache for expensive earlier steps.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: Minimize the Number of Layers — Build Cache"

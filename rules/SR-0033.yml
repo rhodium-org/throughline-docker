@@ -1,0 +1,13 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: Use ONBUILD for downstream builds
+text: >-
+  Use ONBUILD to register commands that run when the image is used as the base for a
+  downstream build, which is useful for images that build an application from a common
+  base.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: ONBUILD — Triggers"

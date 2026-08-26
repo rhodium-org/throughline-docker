@@ -1,0 +1,18 @@
+throughline-docker
+Copyright 2026 Henry J Grech-Cini
+
+This product includes work developed by Dr Henry J Grech-Cini.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+re-expresses Docker's Dockerfile best practices as a grounded IDD graph so consuming
+projects can compose it with throughline-compose.
+
+Docker's documentation, including the Dockerfile best practices, is published by Docker
+Inc. under the Apache License, Version 2.0. The rule text re-expressed here in items'
+`text`/`attrs.source_ref` is derived from that documentation and remains the work of
+Docker Inc. and its contributors; this repository claims no ownership over that content
+and reproduces it for interoperability. See
+https://docs.docker.com/build/building/best-practices/ for the authoritative source.

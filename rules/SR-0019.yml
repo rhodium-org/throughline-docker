@@ -1,0 +1,12 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Use the exec form of CMD
+text: >-
+  Use the exec form of CMD, a JSON array of the executable and its parameters, so the
+  command runs directly without a shell wrapping it.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: CMD — Exec Form"

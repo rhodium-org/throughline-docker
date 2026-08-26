@@ -1,0 +1,13 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: Combine apt-get update and install
+text: >-
+  Always combine an update of the package index with package installation in the same RUN
+  statement, a technique called cache busting, so a cached update layer never leaves you
+  installing stale package versions.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Docker Dockerfile best practices: RUN — apt-get Cache Busting"

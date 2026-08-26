@@ -1,0 +1,11 @@
+uid: UR-0015
+type: user_requirement
+status: approved
+title: WORKDIR
+text: >-
+  Rules governing the working directory.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Docker Dockerfile best practices: WORKDIR"
