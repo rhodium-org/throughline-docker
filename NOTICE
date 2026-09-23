@@ -8,7 +8,7 @@ full terms.
 
 This repository is a throughline *source*: a requirements graph, not a program. It
 re-expresses Docker's Dockerfile best practices as a grounded IDD graph so consuming
-projects can compose it with throughline-compose.
+projects can compose it with throughline.
 
 Docker's documentation, including the Dockerfile best practices, is published by Docker
 Inc. under the Apache License, Version 2.0. The rule text re-expressed here in items'
