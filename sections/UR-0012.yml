@@ -1,11 +1,11 @@
 uid: UR-0012
 type: user_requirement
-status: approved
+status: proposed
 title: ENTRYPOINT
-text: >-
-  Rules governing the image's main command and signal handling.
+text: Rules governing the image's main command and signal handling.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Docker Dockerfile best practices: ENTRYPOINT"
+  source_ref: 'Docker Dockerfile best practices: ENTRYPOINT'

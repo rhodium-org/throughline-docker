@@ -1,11 +1,11 @@
 uid: UR-0004
 type: user_requirement
-status: approved
+status: proposed
 title: Minimize the Number of Layers
-text: >-
-  Rules governing which instructions create layers and how to keep them few.
+text: Rules governing which instructions create layers and how to keep them few.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Docker Dockerfile best practices: Minimize the Number of Layers"
+  source_ref: 'Docker Dockerfile best practices: Minimize the Number of Layers'

@@ -1,11 +1,11 @@
 uid: UR-0003
 type: user_requirement
-status: approved
+status: proposed
 title: Multi-stage Builds
-text: >-
-  Rules governing using multiple build stages to shrink the final image.
+text: Rules governing using multiple build stages to shrink the final image.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Docker Dockerfile best practices: Multi-stage Builds"
+  source_ref: 'Docker Dockerfile best practices: Multi-stage Builds'

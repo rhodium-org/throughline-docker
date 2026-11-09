@@ -1,12 +1,12 @@
 uid: SR-0020
 type: system_requirement
-status: approved
+status: proposed
 title: Use CMD for default arguments
-text: >-
-  Use CMD to provide the default command or default arguments; combine it with ENTRYPOINT
-  when the image runs a fixed executable with variable arguments.
+text: Use CMD to provide the default command or default arguments; combine it with
+  ENTRYPOINT when the image runs a fixed executable with variable arguments.
+normative: true
 links:
 - target: UR-0008
   type: implements
 attrs:
-  source_ref: "Docker Dockerfile best practices: CMD — Default Arguments"
+  source_ref: 'Docker Dockerfile best practices: CMD — Default Arguments'

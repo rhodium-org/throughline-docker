@@ -1,13 +1,13 @@
 uid: SR-0001
 type: system_requirement
-status: approved
+status: proposed
 title: Create ephemeral containers
-text: >-
-  Design the image so the container it defines is ephemeral: it can be stopped and
-  destroyed, then rebuilt and replaced with an absolute minimum of setup and
-  configuration.
+text: 'Design the image so the container it defines is ephemeral: it can be stopped
+  and destroyed, then rebuilt and replaced with an absolute minimum of setup and
+  configuration.'
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Docker Dockerfile best practices: General Guidelines — Ephemeral Containers"
+  source_ref: 'Docker Dockerfile best practices: General Guidelines — Ephemeral Containers'

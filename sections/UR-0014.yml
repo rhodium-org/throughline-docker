@@ -1,11 +1,11 @@
 uid: UR-0014
 type: user_requirement
-status: approved
+status: proposed
 title: USER
-text: >-
-  Rules governing running as a non-root user.
+text: Rules governing running as a non-root user.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Docker Dockerfile best practices: USER"
+  source_ref: 'Docker Dockerfile best practices: USER'

@@ -1,12 +1,12 @@
 uid: SR-0010
 type: system_requirement
-status: approved
+status: proposed
 title: Use official and verified base images
-text: >-
-  Whenever possible, use current official images as the basis for your image, because they
-  are designed to be the most reliable and secure starting point.
+text: Whenever possible, use current official images as the basis for your image,
+  because they are designed to be the most reliable and secure starting point.
+normative: true
 links:
 - target: UR-0005
   type: implements
 attrs:
-  source_ref: "Docker Dockerfile best practices: FROM — Official Images"
+  source_ref: 'Docker Dockerfile best practices: FROM — Official Images'

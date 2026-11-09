@@ -1,12 +1,12 @@
 uid: SR-0022
 type: system_requirement
-status: approved
+status: proposed
 title: Use ENV for PATH and required variables
-text: >-
-  Use ENV to update the PATH so installed software is easy to run, and to provide
+text: Use ENV to update the PATH so installed software is easy to run, and to provide
   environment variables that services require.
+normative: true
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: "Docker Dockerfile best practices: ENV — PATH and Required Variables"
+  source_ref: 'Docker Dockerfile best practices: ENV — PATH and Required Variables'

@@ -1,11 +1,11 @@
 uid: UR-0016
 type: user_requirement
-status: approved
+status: proposed
 title: ONBUILD
-text: >-
-  Rules governing triggers for downstream builds.
+text: Rules governing triggers for downstream builds.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Docker Dockerfile best practices: ONBUILD"
+  source_ref: 'Docker Dockerfile best practices: ONBUILD'

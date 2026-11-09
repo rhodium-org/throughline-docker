@@ -1,11 +1,11 @@
 uid: UR-0001
 type: user_requirement
-status: approved
+status: proposed
 title: General Guidelines
-text: >-
-  Rules governing the overall design of an image and its Dockerfile.
+text: Rules governing the overall design of an image and its Dockerfile.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Docker Dockerfile best practices: General Guidelines"
+  source_ref: 'Docker Dockerfile best practices: General Guidelines'

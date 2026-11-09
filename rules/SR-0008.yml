@@ -1,12 +1,14 @@
 uid: SR-0008
 type: system_requirement
-status: approved
+status: proposed
 title: Know which instructions create layers
-text: >-
-  Remember that only the RUN, COPY and ADD instructions create layers; other instructions
-  create temporary intermediate images and do not increase the size of the build.
+text: Remember that only the RUN, COPY and ADD instructions create layers; other
+  instructions create temporary intermediate images and do not increase the size
+  of the build.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Docker Dockerfile best practices: Minimize the Number of Layers — Layer-creating Instructions"
+  source_ref: 'Docker Dockerfile best practices: Minimize the Number of Layers —
+    Layer-creating Instructions'

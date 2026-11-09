@@ -1,13 +1,13 @@
 uid: SR-0023
 type: system_requirement
-status: approved
+status: proposed
 title: Unset build-only variables in the same layer
-text: >-
-  Because each ENV line creates a new layer, set a variable that is only needed during
-  build within a single RUN and reset it at the end of that command, rather than leaving
-  it persisted in the image.
+text: Because each ENV line creates a new layer, set a variable that is only needed
+  during build within a single RUN and reset it at the end of that command, rather
+  than leaving it persisted in the image.
+normative: true
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: "Docker Dockerfile best practices: ENV — Build-only Variables"
+  source_ref: 'Docker Dockerfile best practices: ENV — Build-only Variables'

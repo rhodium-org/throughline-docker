@@ -1,12 +1,12 @@
 uid: SR-0013
 type: system_requirement
-status: approved
+status: proposed
 title: Add metadata with LABEL
-text: >-
-  Add labels to the image to help organise images by project, record licensing and
-  authorship, and aid automation, using a namespaced key convention.
+text: Add labels to the image to help organise images by project, record licensing
+  and authorship, and aid automation, using a namespaced key convention.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Docker Dockerfile best practices: LABEL — Image Metadata"
+  source_ref: 'Docker Dockerfile best practices: LABEL — Image Metadata'

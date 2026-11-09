@@ -1,12 +1,12 @@
 uid: SR-0027
 type: system_requirement
-status: approved
+status: proposed
 title: Use an exec helper script for PID 1
-text: >-
-  When an entrypoint script is needed, end it by exec-ing the main process so that process
-  runs as PID 1 and receives Unix signals such as termination correctly.
+text: When an entrypoint script is needed, end it by exec-ing the main process so
+  that process runs as PID 1 and receives Unix signals such as termination correctly.
+normative: true
 links:
 - target: UR-0012
   type: implements
 attrs:
-  source_ref: "Docker Dockerfile best practices: ENTRYPOINT — Exec Helper Script"
+  source_ref: 'Docker Dockerfile best practices: ENTRYPOINT — Exec Helper Script'

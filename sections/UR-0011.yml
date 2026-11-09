@@ -1,11 +1,11 @@
 uid: UR-0011
 type: user_requirement
-status: approved
+status: proposed
 title: ADD or COPY
-text: >-
-  Rules governing copying files into the image.
+text: Rules governing copying files into the image.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Docker Dockerfile best practices: ADD or COPY"
+  source_ref: 'Docker Dockerfile best practices: ADD or COPY'

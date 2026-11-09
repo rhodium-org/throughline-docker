@@ -1,11 +1,11 @@
 uid: UR-0013
 type: user_requirement
-status: approved
+status: proposed
 title: VOLUME
-text: >-
-  Rules governing mutable and user-serviceable data.
+text: Rules governing mutable and user-serviceable data.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Docker Dockerfile best practices: VOLUME"
+  source_ref: 'Docker Dockerfile best practices: VOLUME'

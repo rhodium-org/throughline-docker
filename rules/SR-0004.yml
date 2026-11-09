@@ -1,13 +1,14 @@
 uid: SR-0004
 type: system_requirement
-status: approved
+status: proposed
 title: Keep the build context small
-text: >-
-  Keep the build context small by starting from an empty directory and adding only the
-  files the Dockerfile needs, so builds are fast and do not send unnecessary files to the
-  builder.
+text: Keep the build context small by starting from an empty directory and adding
+  only the files the Dockerfile needs, so builds are fast and do not send unnecessary
+  files to the builder.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Docker Dockerfile best practices: Build Context and dockerignore — Small Context"
+  source_ref: 'Docker Dockerfile best practices: Build Context and dockerignore —
+    Small Context'
